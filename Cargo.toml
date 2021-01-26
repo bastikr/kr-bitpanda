@@ -3,8 +3,13 @@ name = "kr-bitpanda"
 version = "0.1.0"
 authors = ["Sebastian Krämer <basti.kr@gmail.com>"]
 edition = "2018"
+license = "MIT"
+description = "Client library for the bitpanda REST API "
+readme = "README.md"
+homepage = "https://github.com/bastikr/kr-bitpanda"
+repository = "https://github.com/bastikr/kr-bitpanda"
+categories = ["cryptography::cryptocurrencies"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 reqwest = { version = "0.11", features = [ "json" ] }
