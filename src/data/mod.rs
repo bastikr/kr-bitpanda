@@ -4,4 +4,4 @@ mod ticker;
 
 pub use crypto_wallet::{CryptoWallet, CryptoWalletAttributes, CryptoWallets, CryptocoinSymbol};
 pub use fiat_wallet::{FiatSymbol, FiatWallet, FiatWalletAttributes, FiatWallets};
-pub use ticker::Ticker;
+pub use ticker::{Ticker, TickerSymbol};

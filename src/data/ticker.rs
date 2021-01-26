@@ -63,7 +63,7 @@ pub enum TickerSymbol {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Ticker(HashMap<TickerSymbol, HashMap<FiatSymbol, Decimal>>);
+pub struct Ticker(pub HashMap<TickerSymbol, HashMap<FiatSymbol, Decimal>>);
 
 #[test]
 fn test_crypto_wallets_deserialization() -> anyhow::Result<()> {
