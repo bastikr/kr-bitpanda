@@ -1,0 +1,59 @@
+{
+    "data": [
+        {
+            "type": "fiat_wallet",
+            "attributes": {
+                "fiat_id": "1",
+                "fiat_symbol": "EUR",
+                "balance": "1234.12345678",
+                "name": "EUR Wallet",
+                "pending_transactions_count": 0
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet",
+            "attributes": {
+                "fiat_id": "2",
+                "fiat_symbol": "USD",
+                "balance": "0.00000000",
+                "name": "USD Wallet",
+                "pending_transactions_count": 0
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet",
+            "attributes": {
+                "fiat_id": "3",
+                "fiat_symbol": "CHF",
+                "balance": "0.00000000",
+                "name": "CHF Wallet",
+                "pending_transactions_count": 0
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet",
+            "attributes": {
+                "fiat_id": "4",
+                "fiat_symbol": "GBP",
+                "balance": "0.00000000",
+                "name": "GBP Wallet",
+                "pending_transactions_count": 0
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet",
+            "attributes": {
+                "fiat_id": "8",
+                "fiat_symbol": "TRY",
+                "balance": "0.00000000",
+                "name": "TRY Wallet",
+                "pending_transactions_count": 0
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        }
+    ]
+}

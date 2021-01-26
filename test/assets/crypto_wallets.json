@@ -1,0 +1,648 @@
+{
+    "data": [
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "1",
+                "cryptocoin_symbol": "BTC",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "BTC Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "3",
+                "cryptocoin_symbol": "LTC",
+                "balance": "1234.12345678",
+                "is_default": true,
+                "name": "LTC Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "5",
+                "cryptocoin_symbol": "ETH",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "ETH Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "6",
+                "cryptocoin_symbol": "LSK",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "LSK Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "7",
+                "cryptocoin_symbol": "DASH",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "DASH Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "8",
+                "cryptocoin_symbol": "XRP",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "XRP Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "9",
+                "cryptocoin_symbol": "BCH",
+                "balance": "1234.12345678",
+                "is_default": true,
+                "name": "BCH Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "11",
+                "cryptocoin_symbol": "PAN",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "PAN Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "12",
+                "cryptocoin_symbol": "KMD",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "KMD Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "13",
+                "cryptocoin_symbol": "MIOTA",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "MIOTA Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "14",
+                "cryptocoin_symbol": "EOS",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "EOS Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "15",
+                "cryptocoin_symbol": "OMG",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "OMG Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "16",
+                "cryptocoin_symbol": "REP",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "REP Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "17",
+                "cryptocoin_symbol": "ZRX",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "ZRX Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "18",
+                "cryptocoin_symbol": "ZEC",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "ZEC Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "19",
+                "cryptocoin_symbol": "XEM",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "XEM Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "20",
+                "cryptocoin_symbol": "XLM",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "XLM Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "21",
+                "cryptocoin_symbol": "XTZ",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "XTZ Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "22",
+                "cryptocoin_symbol": "ADA",
+                "balance": "1234.12345678",
+                "is_default": true,
+                "name": "ADA Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "23",
+                "cryptocoin_symbol": "NEO",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "NEO Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "24",
+                "cryptocoin_symbol": "ETC",
+                "balance": "1234.12345678",
+                "is_default": true,
+                "name": "ETC Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "25",
+                "cryptocoin_symbol": "LINK",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "LINK Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "26",
+                "cryptocoin_symbol": "WAVES",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "WAVES Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "27",
+                "cryptocoin_symbol": "USDT",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "USDT Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "30",
+                "cryptocoin_symbol": "USDC",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "USDC Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "31",
+                "cryptocoin_symbol": "TRX",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "TRX Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "32",
+                "cryptocoin_symbol": "ATOM",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "ATOM Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "33",
+                "cryptocoin_symbol": "BEST",
+                "balance": "331.31041054",
+                "is_default": true,
+                "name": "BEST Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "34",
+                "cryptocoin_symbol": "BAT",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "BAT Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "37",
+                "cryptocoin_symbol": "CHZ",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "CHZ Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "38",
+                "cryptocoin_symbol": "DOGE",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "DOGE Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "39",
+                "cryptocoin_symbol": "ONT",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "ONT Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "43",
+                "cryptocoin_symbol": "QTUM",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "QTUM Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "44",
+                "cryptocoin_symbol": "VET",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "VET Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "51",
+                "cryptocoin_symbol": "DOT",
+                "balance": "1234.12345678",
+                "is_default": true,
+                "name": "DOT Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "57",
+                "cryptocoin_symbol": "FIL",
+                "balance": "1234.12345678",
+                "is_default": true,
+                "name": "FIL Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "52",
+                "cryptocoin_symbol": "YFI",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "YFI Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "53",
+                "cryptocoin_symbol": "MKR",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "MKR Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "54",
+                "cryptocoin_symbol": "COMP",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "COMP Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "55",
+                "cryptocoin_symbol": "SNX",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "SNX Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "56",
+                "cryptocoin_symbol": "UNI",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "UNI Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "58",
+                "cryptocoin_symbol": "AAVE",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "AAVE Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "59",
+                "cryptocoin_symbol": "KNC",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "KNC Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "60",
+                "cryptocoin_symbol": "BAND",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "BAND Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "61",
+                "cryptocoin_symbol": "REN",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "REN Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "wallet",
+            "attributes": {
+                "cryptocoin_id": "63",
+                "cryptocoin_symbol": "UMA",
+                "balance": "0.00000000",
+                "is_default": true,
+                "name": "UMA Wallet",
+                "pending_transactions_count": 0,
+                "deleted": false,
+                "is_index": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        }
+    ]
+}
