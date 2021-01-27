@@ -1,9 +1,11 @@
 # KR-Bitpanda
 
-A simple async rust client library for the classic (non-pro) [bitpanda](https://www.bitpanda.com) REST API as mostly described by https://developers.bitpanda.com/platform/#bitpanda-public-api. 
+An unofficial, simple async rust client library for the classic (non-pro) [bitpanda](https://www.bitpanda.com) REST API as mostly described by https://developers.bitpanda.com/platform/#bitpanda-public-api. 
 
 
 ## Example
+
+Add `kr-bitpanda` and an async runtime, e.g. [tokio](https://github.com/tokio-rs/tokio) to your crate's dependencies. 
 
 ```toml
 # Cargo.toml
@@ -15,7 +17,10 @@ tokio = { version = "1", features = ["rt", "macros"] }
 kr-bitpanda = { path = "../kr-bitpanda" }
 ```
 
+The following `main.rs` can be used as minimal example to get started
+
 ```rust
+// main.rs
 use std::error::Error;
 
 #[tokio::main(flavor = "current_thread")]
