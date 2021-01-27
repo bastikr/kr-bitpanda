@@ -1,6 +1,6 @@
 use anyhow::{ensure, Result};
 
-use crate::data::{CryptoWallets, FiatWallets};
+use crate::data::{CryptoWallets, FiatWallets, Trades};
 
 pub async fn get_crypto_wallets(key: &str) -> Result<CryptoWallets> {
     let wallets_url = "https://api.bitpanda.com/v1/wallets";
@@ -36,4 +36,19 @@ pub async fn get_fiat_wallets(key: &str) -> Result<FiatWallets> {
     );
     let wallets: FiatWallets = response.json().await?;
     Ok(wallets)
+}
+
+// TODO: Handle multi-page trades
+pub async fn get_trades(key: &str) -> Result<Trades> {
+    let url = "https://api.bitpanda.com/v1/trades";
+    let client = reqwest::Client::new();
+    let response = client.get(url).header("X-API-KEY", key).send().await?;
+    let status = response.status();
+    ensure!(
+        status == reqwest::StatusCode::OK,
+        "response status not ok: {}",
+        status
+    );
+    let trades: Trades = response.json().await?;
+    Ok(trades)
 }
