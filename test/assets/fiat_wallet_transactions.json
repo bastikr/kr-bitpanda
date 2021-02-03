@@ -1,0 +1,1583 @@
+{
+    "data": [
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "51",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-27T16:10:30+01:00",
+                            "unix": "1611760230"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": true,
+                        "best_fee_collection": {
+                            "type": "best_fee_collection",
+                            "attributes": {
+                                "best_current_price_eur": "1.000001",
+                                "best_used_price_eur": "1.000001",
+                                "bfc_deduction": 0.2001,
+                                "bfc_market_value_eur": "1.000001",
+                                "wallet_transaction": {
+                                    "type": "wallet_transaction",
+                                    "attributes": {
+                                        "amount": "1000.00",
+                                        "recipient": "Bitpanda",
+                                        "time": {
+                                            "date_iso8601": "2021-01-27T16:10:30+01:00",
+                                            "unix": "1611760230"
+                                        },
+                                        "confirmations": 99,
+                                        "in_or_out": "outgoing",
+                                        "type": "withdrawal",
+                                        "status": "finished",
+                                        "amount_eur": "0.00",
+                                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                        "confirmation_by": "not_required",
+                                        "confirmed": false,
+                                        "cryptocoin_id": "33",
+                                        "last_changed": {
+                                            "date_iso8601": "2021-01-27T16:10:30+01:00",
+                                            "unix": "1611760230"
+                                        },
+                                        "fee": "0.1",
+                                        "current_fiat_id": "1",
+                                        "current_fiat_amount": "0.00",
+                                        "is_metal_storage_fee": false,
+                                        "tags": [],
+                                        "public_status": "finished",
+                                        "is_bfc": true
+                                    },
+                                    "id": "12345678-1234-1234-1234-123456789abc"
+                                }
+                            }
+                        }
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-27T16:10:30+01:00",
+                    "unix": "1611760230"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-27T16:10:30+01:00",
+                    "unix": "1611760230"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "22",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-27T16:09:36+01:00",
+                            "unix": "1611760176"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": true,
+                        "best_fee_collection": {
+                            "type": "best_fee_collection",
+                            "attributes": {
+                                "best_current_price_eur": "1.000001",
+                                "best_used_price_eur": "1.000001",
+                                "bfc_deduction": 0.2001,
+                                "bfc_market_value_eur": "1.000001",
+                                "wallet_transaction": {
+                                    "type": "wallet_transaction",
+                                    "attributes": {
+                                        "amount": "1000.00",
+                                        "recipient": "Bitpanda",
+                                        "time": {
+                                            "date_iso8601": "2021-01-27T16:09:36+01:00",
+                                            "unix": "1611760176"
+                                        },
+                                        "confirmations": 99,
+                                        "in_or_out": "outgoing",
+                                        "type": "withdrawal",
+                                        "status": "finished",
+                                        "amount_eur": "0.00",
+                                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                        "confirmation_by": "not_required",
+                                        "confirmed": false,
+                                        "cryptocoin_id": "33",
+                                        "last_changed": {
+                                            "date_iso8601": "2021-01-27T16:09:36+01:00",
+                                            "unix": "1611760176"
+                                        },
+                                        "fee": "0.1",
+                                        "current_fiat_id": "1",
+                                        "current_fiat_amount": "0.00",
+                                        "is_metal_storage_fee": false,
+                                        "tags": [],
+                                        "public_status": "finished",
+                                        "is_bfc": true
+                                    },
+                                    "id": "12345678-1234-1234-1234-123456789abc"
+                                }
+                            }
+                        }
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-27T16:09:36+01:00",
+                    "unix": "1611760176"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-27T16:09:36+01:00",
+                    "unix": "1611760176"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "51",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-27T07:47:09+01:00",
+                            "unix": "1611730029"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": true,
+                        "best_fee_collection": {
+                            "type": "best_fee_collection",
+                            "attributes": {
+                                "best_current_price_eur": "1.000001",
+                                "best_used_price_eur": "1.000001",
+                                "bfc_deduction": 0.2001,
+                                "bfc_market_value_eur": "1.000001",
+                                "wallet_transaction": {
+                                    "type": "wallet_transaction",
+                                    "attributes": {
+                                        "amount": "1000.00",
+                                        "recipient": "Bitpanda",
+                                        "time": {
+                                            "date_iso8601": "2021-01-27T07:47:09+01:00",
+                                            "unix": "1611730029"
+                                        },
+                                        "confirmations": 99,
+                                        "in_or_out": "outgoing",
+                                        "type": "withdrawal",
+                                        "status": "finished",
+                                        "amount_eur": "0.00",
+                                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                        "confirmation_by": "not_required",
+                                        "confirmed": false,
+                                        "cryptocoin_id": "33",
+                                        "last_changed": {
+                                            "date_iso8601": "2021-01-27T07:47:09+01:00",
+                                            "unix": "1611730029"
+                                        },
+                                        "fee": "0.1",
+                                        "current_fiat_id": "1",
+                                        "current_fiat_amount": "0.00",
+                                        "is_metal_storage_fee": false,
+                                        "tags": [],
+                                        "public_status": "finished",
+                                        "is_bfc": true
+                                    },
+                                    "id": "12345678-1234-1234-1234-123456789abc"
+                                }
+                            }
+                        }
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-27T07:47:09+01:00",
+                    "unix": "1611730029"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-27T07:47:09+01:00",
+                    "unix": "1611730029"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "51",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-26T21:44:18+01:00",
+                            "unix": "1611693858"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": true,
+                        "best_fee_collection": {
+                            "type": "best_fee_collection",
+                            "attributes": {
+                                "best_current_price_eur": "1.000001",
+                                "best_used_price_eur": "1.000001",
+                                "bfc_deduction": 0.2001,
+                                "bfc_market_value_eur": "1.000001",
+                                "wallet_transaction": {
+                                    "type": "wallet_transaction",
+                                    "attributes": {
+                                        "amount": "1000.00",
+                                        "recipient": "Bitpanda",
+                                        "time": {
+                                            "date_iso8601": "2021-01-26T21:44:18+01:00",
+                                            "unix": "1611693858"
+                                        },
+                                        "confirmations": 99,
+                                        "in_or_out": "outgoing",
+                                        "type": "withdrawal",
+                                        "status": "finished",
+                                        "amount_eur": "0.00",
+                                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                        "confirmation_by": "not_required",
+                                        "confirmed": false,
+                                        "cryptocoin_id": "33",
+                                        "last_changed": {
+                                            "date_iso8601": "2021-01-26T21:44:18+01:00",
+                                            "unix": "1611693858"
+                                        },
+                                        "fee": "0.1",
+                                        "current_fiat_id": "1",
+                                        "current_fiat_amount": "0.00",
+                                        "is_metal_storage_fee": false,
+                                        "tags": [],
+                                        "public_status": "finished",
+                                        "is_bfc": true
+                                    },
+                                    "id": "12345678-1234-1234-1234-123456789abc"
+                                }
+                            }
+                        }
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-26T21:44:18+01:00",
+                    "unix": "1611693858"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-26T21:44:18+01:00",
+                    "unix": "1611693858"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "3",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-25T21:22:37+01:00",
+                            "unix": "1611606157"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": true,
+                        "best_fee_collection": {
+                            "type": "best_fee_collection",
+                            "attributes": {
+                                "best_current_price_eur": "1.000001",
+                                "best_used_price_eur": "1.000001",
+                                "bfc_deduction": 0.2001,
+                                "bfc_market_value_eur": "1.000001",
+                                "wallet_transaction": {
+                                    "type": "wallet_transaction",
+                                    "attributes": {
+                                        "amount": "1000.00",
+                                        "recipient": "Bitpanda",
+                                        "time": {
+                                            "date_iso8601": "2021-01-25T21:22:37+01:00",
+                                            "unix": "1611606157"
+                                        },
+                                        "confirmations": 99,
+                                        "in_or_out": "outgoing",
+                                        "type": "withdrawal",
+                                        "status": "finished",
+                                        "amount_eur": "0.00",
+                                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                        "confirmation_by": "not_required",
+                                        "confirmed": false,
+                                        "cryptocoin_id": "33",
+                                        "last_changed": {
+                                            "date_iso8601": "2021-01-25T21:22:37+01:00",
+                                            "unix": "1611606157"
+                                        },
+                                        "fee": "0.1",
+                                        "current_fiat_id": "1",
+                                        "current_fiat_amount": "0.00",
+                                        "is_metal_storage_fee": false,
+                                        "tags": [],
+                                        "public_status": "finished",
+                                        "is_bfc": true
+                                    },
+                                    "id": "12345678-1234-1234-1234-123456789abc"
+                                }
+                            }
+                        }
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-25T21:22:37+01:00",
+                    "unix": "1611606157"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-25T21:22:37+01:00",
+                    "unix": "1611606157"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "22",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-22T08:11:07+01:00",
+                            "unix": "1611299467"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": true,
+                        "best_fee_collection": {
+                            "type": "best_fee_collection",
+                            "attributes": {
+                                "best_current_price_eur": "1.000001",
+                                "best_used_price_eur": "1.000001",
+                                "bfc_deduction": 0.2001,
+                                "bfc_market_value_eur": "1.000001",
+                                "wallet_transaction": {
+                                    "type": "wallet_transaction",
+                                    "attributes": {
+                                        "amount": "1000.00",
+                                        "recipient": "Bitpanda",
+                                        "time": {
+                                            "date_iso8601": "2021-01-22T08:11:07+01:00",
+                                            "unix": "1611299467"
+                                        },
+                                        "confirmations": 99,
+                                        "in_or_out": "outgoing",
+                                        "type": "withdrawal",
+                                        "status": "finished",
+                                        "amount_eur": "0.00",
+                                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                        "confirmation_by": "not_required",
+                                        "confirmed": false,
+                                        "cryptocoin_id": "33",
+                                        "last_changed": {
+                                            "date_iso8601": "2021-01-22T08:11:07+01:00",
+                                            "unix": "1611299467"
+                                        },
+                                        "fee": "0.1",
+                                        "current_fiat_id": "1",
+                                        "current_fiat_amount": "0.00",
+                                        "is_metal_storage_fee": false,
+                                        "tags": [],
+                                        "public_status": "finished",
+                                        "is_bfc": true
+                                    },
+                                    "id": "12345678-1234-1234-1234-123456789abc"
+                                }
+                            }
+                        }
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-22T08:11:07+01:00",
+                    "unix": "1611299467"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-22T08:11:07+01:00",
+                    "unix": "1611299467"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-21T15:55:14+01:00",
+                    "unix": "1611240914"
+                },
+                "in_or_out": "outgoing",
+                "type": "transfer",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "recipient": "EUR Exchange Wallet",
+                "from": "EUR Wallet",
+                "last_changed": {
+                    "date_iso8601": "2021-01-21T15:55:14+01:00",
+                    "unix": "1611240914"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "3",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-21T10:29:55+01:00",
+                            "unix": "1611221395"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": true,
+                        "best_fee_collection": {
+                            "type": "best_fee_collection",
+                            "attributes": {
+                                "best_current_price_eur": "1.000001",
+                                "best_used_price_eur": "1.000001",
+                                "bfc_deduction": 0.2001,
+                                "bfc_market_value_eur": "1.000001",
+                                "wallet_transaction": {
+                                    "type": "wallet_transaction",
+                                    "attributes": {
+                                        "amount": "1000.00",
+                                        "recipient": "Bitpanda",
+                                        "time": {
+                                            "date_iso8601": "2021-01-21T10:29:55+01:00",
+                                            "unix": "1611221395"
+                                        },
+                                        "confirmations": 99,
+                                        "in_or_out": "outgoing",
+                                        "type": "withdrawal",
+                                        "status": "finished",
+                                        "amount_eur": "0.00",
+                                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                        "confirmation_by": "not_required",
+                                        "confirmed": false,
+                                        "cryptocoin_id": "33",
+                                        "last_changed": {
+                                            "date_iso8601": "2021-01-21T10:29:55+01:00",
+                                            "unix": "1611221395"
+                                        },
+                                        "fee": "0.1",
+                                        "current_fiat_id": "1",
+                                        "current_fiat_amount": "0.00",
+                                        "is_metal_storage_fee": false,
+                                        "tags": [],
+                                        "public_status": "finished",
+                                        "is_bfc": true
+                                    },
+                                    "id": "12345678-1234-1234-1234-123456789abc"
+                                }
+                            }
+                        }
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-21T10:29:55+01:00",
+                    "unix": "1611221395"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-21T10:29:55+01:00",
+                    "unix": "1611221395"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "sell",
+                        "cryptocoin_id": "51",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "time": {
+                            "date_iso8601": "2021-01-14T10:51:00+01:00",
+                            "unix": "1610617860"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": true,
+                        "best_fee_collection": {
+                            "type": "best_fee_collection",
+                            "attributes": {
+                                "best_current_price_eur": "1.000001",
+                                "best_used_price_eur": "1.000001",
+                                "bfc_deduction": 0.2001,
+                                "bfc_market_value_eur": "1.000001",
+                                "wallet_transaction": {
+                                    "type": "wallet_transaction",
+                                    "attributes": {
+                                        "amount": "1000.00",
+                                        "recipient": "Bitpanda",
+                                        "time": {
+                                            "date_iso8601": "2021-01-14T10:51:01+01:00",
+                                            "unix": "1610617861"
+                                        },
+                                        "confirmations": 99,
+                                        "in_or_out": "outgoing",
+                                        "type": "withdrawal",
+                                        "status": "finished",
+                                        "amount_eur": "0.00",
+                                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                        "confirmation_by": "not_required",
+                                        "confirmed": false,
+                                        "cryptocoin_id": "33",
+                                        "last_changed": {
+                                            "date_iso8601": "2021-01-14T10:51:01+01:00",
+                                            "unix": "1610617861"
+                                        },
+                                        "fee": "0.1",
+                                        "current_fiat_id": "1",
+                                        "current_fiat_amount": "0.00",
+                                        "is_metal_storage_fee": false,
+                                        "tags": [],
+                                        "public_status": "finished",
+                                        "is_bfc": true
+                                    },
+                                    "id": "12345678-1234-1234-1234-123456789abc"
+                                }
+                            }
+                        }
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-14T10:51:00+01:00",
+                    "unix": "1610617860"
+                },
+                "in_or_out": "incoming",
+                "type": "sell",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-14T10:51:00+01:00",
+                    "unix": "1610617860"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "51",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-12T20:04:38+01:00",
+                            "unix": "1610478278"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": true,
+                        "best_fee_collection": {
+                            "type": "best_fee_collection",
+                            "attributes": {
+                                "best_current_price_eur": "1.000001",
+                                "best_used_price_eur": "1.000001",
+                                "bfc_deduction": 0.2001,
+                                "bfc_market_value_eur": "1.000001",
+                                "wallet_transaction": {
+                                    "type": "wallet_transaction",
+                                    "attributes": {
+                                        "amount": "1000.00",
+                                        "recipient": "Bitpanda",
+                                        "time": {
+                                            "date_iso8601": "2021-01-12T20:04:38+01:00",
+                                            "unix": "1610478278"
+                                        },
+                                        "confirmations": 99,
+                                        "in_or_out": "outgoing",
+                                        "type": "withdrawal",
+                                        "status": "finished",
+                                        "amount_eur": "0.00",
+                                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                        "confirmation_by": "not_required",
+                                        "confirmed": false,
+                                        "cryptocoin_id": "33",
+                                        "last_changed": {
+                                            "date_iso8601": "2021-01-12T20:04:38+01:00",
+                                            "unix": "1610478278"
+                                        },
+                                        "fee": "0.1",
+                                        "current_fiat_id": "1",
+                                        "current_fiat_amount": "0.00",
+                                        "is_metal_storage_fee": false,
+                                        "tags": [],
+                                        "public_status": "finished",
+                                        "is_bfc": true
+                                    },
+                                    "id": "12345678-1234-1234-1234-123456789abc"
+                                }
+                            }
+                        }
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-12T20:04:38+01:00",
+                    "unix": "1610478278"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-12T20:04:38+01:00",
+                    "unix": "1610478278"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "33",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-12T07:35:49+01:00",
+                            "unix": "1610433349"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": false
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-12T07:35:49+01:00",
+                    "unix": "1610433349"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-12T07:35:49+01:00",
+                    "unix": "1610433349"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "57",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-12T07:34:24+01:00",
+                            "unix": "1610433264"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": false
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-12T07:34:24+01:00",
+                    "unix": "1610433264"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-12T07:34:24+01:00",
+                    "unix": "1610433264"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "24",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-11T22:43:36+01:00",
+                            "unix": "1610401416"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": false
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-11T22:43:36+01:00",
+                    "unix": "1610401416"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-11T22:43:36+01:00",
+                    "unix": "1610401416"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-11T20:20:23+01:00",
+                    "unix": "1610392823"
+                },
+                "in_or_out": "outgoing",
+                "type": "transfer",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "recipient": "EUR Exchange Wallet",
+                "from": "EUR Wallet",
+                "last_changed": {
+                    "date_iso8601": "2021-01-11T20:20:23+01:00",
+                    "unix": "1610392823"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-11T18:58:20+01:00",
+                    "unix": "1610387900"
+                },
+                "in_or_out": "incoming",
+                "type": "deposit",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "payment_option_id": "5",
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-11T18:58:20+01:00",
+                    "unix": "1610387900"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "bank_account_details": {
+                    "type": "bank_account_detail",
+                    "attributes": {
+                        "country_id": "10",
+                        "iban": "XX123412341234123412",
+                        "bic": "",
+                        "bank_name": "",
+                        "holder": "XXX YYY ZZZ"
+                    }
+                },
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "sell",
+                        "cryptocoin_id": "24",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "time": {
+                            "date_iso8601": "2021-01-07T19:21:13+01:00",
+                            "unix": "1610043673"
+                        },
+                        "price": "10.00",
+                        "is_swap": true,
+                        "is_savings": false,
+                        "related_swap_trade": {
+                            "type": "trade",
+                            "attributes": {
+                                "status": "finished",
+                                "type": "buy",
+                                "cryptocoin_id": "22",
+                                "fiat_id": "1",
+                                "amount_fiat": "10.00",
+                                "amount_cryptocoin": "10.00",
+                                "fiat_to_eur_rate": "1.00000000",
+                                "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                "payment_option_id": "12",
+                                "time": {
+                                    "date_iso8601": "2021-01-07T19:21:13+01:00",
+                                    "unix": "1610043673"
+                                },
+                                "price": "10.00",
+                                "is_swap": true,
+                                "is_savings": false,
+                                "related_swap_trade_id": "d284e7ec-123d-4ca1-b6c9-3359f9549bba",
+                                "tags": [],
+                                "bfc_used": false
+                            },
+                            "id": "12345678-1234-1234-1234-123456789abc"
+                        },
+                        "tags": [],
+                        "bfc_used": false
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-07T19:21:13+01:00",
+                    "unix": "1610043673"
+                },
+                "in_or_out": "incoming",
+                "type": "sell",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-07T19:21:13+01:00",
+                    "unix": "1610043673"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "22",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-07T19:21:13+01:00",
+                            "unix": "1610043673"
+                        },
+                        "price": "10.00",
+                        "is_swap": true,
+                        "is_savings": false,
+                        "related_swap_trade": {
+                            "type": "trade",
+                            "attributes": {
+                                "status": "finished",
+                                "type": "sell",
+                                "cryptocoin_id": "24",
+                                "fiat_id": "1",
+                                "amount_fiat": "10.00",
+                                "amount_cryptocoin": "10.00",
+                                "fiat_to_eur_rate": "1.00000000",
+                                "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                                "time": {
+                                    "date_iso8601": "2021-01-07T19:21:13+01:00",
+                                    "unix": "1610043673"
+                                },
+                                "price": "10.00",
+                                "is_swap": true,
+                                "is_savings": false,
+                                "related_swap_trade_id": "ac298b01-b4d3-495d-95ba-7ecf744d29b1",
+                                "tags": [],
+                                "bfc_used": false
+                            },
+                            "id": "12345678-1234-1234-1234-123456789abc"
+                        },
+                        "tags": [],
+                        "bfc_used": false
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-07T19:21:13+01:00",
+                    "unix": "1610043673"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-07T19:21:13+01:00",
+                    "unix": "1610043673"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "5",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-03T23:45:41+01:00",
+                            "unix": "1609713941"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": false
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-03T23:45:41+01:00",
+                    "unix": "1609713941"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-03T23:45:41+01:00",
+                    "unix": "1609713941"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "24",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "payment_option_id": "12",
+                        "time": {
+                            "date_iso8601": "2021-01-03T21:37:25+01:00",
+                            "unix": "1609706245"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": false
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2021-01-03T21:37:25+01:00",
+                    "unix": "1609706245"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2021-01-03T21:37:25+01:00",
+                    "unix": "1609706245"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2020-12-17T13:03:31+01:00",
+                    "unix": "1608206611"
+                },
+                "in_or_out": "incoming",
+                "type": "deposit",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "payment_option_id": "5",
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2020-12-17T13:03:32+01:00",
+                    "unix": "1608206612"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "bank_account_details": {
+                    "type": "bank_account_detail",
+                    "attributes": {
+                        "country_id": "10",
+                        "iban": "XX123412341234123412",
+                        "bic": "",
+                        "bank_name": "",
+                        "holder": "XXX YYY ZZZ"
+                    }
+                },
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2016-07-23T17:36:48+02:00",
+                    "unix": "1469288208"
+                },
+                "in_or_out": "incoming",
+                "type": "deposit",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "payment_option_id": "3",
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2016-07-23T17:36:48+02:00",
+                    "unix": "1469288208"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "bank_account_details": {
+                    "type": "bank_account_detail",
+                    "attributes": {
+                        "country_id": "10",
+                        "iban": "XX123412341234123412",
+                        "bic": null,
+                        "bank_name": "",
+                        "holder": "XXX YYY ZZZ"
+                    }
+                },
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        },
+        {
+            "type": "fiat_wallet_transaction",
+            "attributes": {
+                "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                "user_id": "12345678-1234-1234-1234-123456789abc",
+                "fiat_id": "1",
+                "trade": {
+                    "type": "trade",
+                    "attributes": {
+                        "status": "finished",
+                        "type": "buy",
+                        "cryptocoin_id": "1",
+                        "fiat_id": "1",
+                        "amount_fiat": "10.00",
+                        "amount_cryptocoin": "10.00",
+                        "fiat_to_eur_rate": "1.00000000",
+                        "wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "fiat_wallet_id": "12345678-1234-1234-1234-123456789abc",
+                        "time": {
+                            "date_iso8601": "2016-07-23T17:36:48+02:00",
+                            "unix": "1469288208"
+                        },
+                        "price": "10.00",
+                        "is_swap": false,
+                        "is_savings": false,
+                        "tags": [],
+                        "bfc_used": false
+                    },
+                    "id": "12345678-1234-1234-1234-123456789abc"
+                },
+                "amount": "1000.00",
+                "fee": "0.1",
+                "to_eur_rate": "1.00000000",
+                "time": {
+                    "date_iso8601": "2016-07-23T17:36:48+02:00",
+                    "unix": "1469288208"
+                },
+                "in_or_out": "outgoing",
+                "type": "buy",
+                "status": "finished",
+                "confirmation_by": "not_required",
+                "confirmed": true,
+                "requires_2fa_approval": false,
+                "is_savings": false,
+                "last_changed": {
+                    "date_iso8601": "2016-07-23T17:36:48+02:00",
+                    "unix": "1469288208"
+                },
+                "tags": [],
+                "public_status": "finished",
+                "bank_account_details": {
+                    "type": "bank_account_detail",
+                    "attributes": {
+                        "country_id": "10",
+                        "iban": "XX123412341234123412",
+                        "bic": null,
+                        "bank_name": "",
+                        "holder": "XXX YYY ZZZ"
+                    }
+                },
+                "is_index": false,
+                "is_card": false
+            },
+            "id": "12345678-1234-1234-1234-123456789abc"
+        }
+    ],
+    "meta": {
+        "total_count": 22,
+        "page": 1,
+        "page_size": 25
+    },
+    "links": {
+        "self": "?page=1&page_size=25"
+    }
+}
