@@ -8,6 +8,7 @@ use super::FiatSymbol;
 #[derive(Debug, Clone, Copy, Deserialize, Serialize, PartialEq, Eq, Hash)]
 pub enum TickerSymbol {
     AAVE,
+    AVAX,
     ADA,
     ANT,
     ATOM,
