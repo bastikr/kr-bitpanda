@@ -66,6 +66,8 @@ pub enum TickerSymbol {
     YFI,
     ZEC,
     ZRX,
+    #[serde(other)]
+    Unknown,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
